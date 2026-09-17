@@ -392,6 +392,8 @@
   border-radius: var(--radius-md);
   text-align: left;
   transition: all var(--transition-fast);
+  min-width: 0;
+  overflow: hidden;
 }
 
 .sample-card:hover {
@@ -401,29 +403,22 @@
 }
 
 .sample-preview {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: var(--radius-sm);
   background: rgba(2, 132, 199, 0.2);
   border: 1px solid rgba(56, 189, 248, 0.3);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: var(--accent-cyan);
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .sample-drop-icon {
-  width: 18px;
-  height: 18px;
-}
-
-.sample-num {
-  font-size: 0.6rem;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  color: #e2e8f0;
+  width: 20px;
+  height: 20px;
 }
 
 .sample-meta {
@@ -431,6 +426,8 @@
   flex-direction: column;
   overflow: hidden;
   flex: 1;
+  min-width: 0;
+  gap: 0.2rem;
 }
 
 .sample-title {
@@ -443,15 +440,18 @@
 }
 
 .sample-filename {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
-  font-family: var(--font-mono);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sample-arrow {
   color: var(--text-muted);
   opacity: 0;
   transition: all var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .sample-card:hover .sample-arrow {

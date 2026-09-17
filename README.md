@@ -32,7 +32,7 @@ Microplastic-Detection-in-Water/
 2.  **Create Virtual Environment**
     ```bash
     python -m venv env
-    source env/Scripts/activate
+    source venv/Scripts/activate
     ```
 
 3.  **Install Dependencies**
