@@ -1,0 +1,19 @@
+EXPERIMENT 4: DETECTION THRESHOLD OPTIMIZATION REPORT
+Model Candidate: E:\Microplastic Detection in Water\models\exp2_long_training\weights\best.pt
+Total Validation Ground Truth Microplastics: 1701
+
+ Threshold  Detected   TP  FP  Missed (FN)  Precision (%)  Recall (%)  F1-Score (%)
+      0.10      2013 1282 731          419          63.69       75.37         69.04
+      0.15      1771 1230 541          471          69.45       72.31         70.85
+      0.20      1607 1186 421          515          73.80       69.72         71.70
+      0.25      1476 1153 323          548          78.12       67.78         72.58
+      0.30      1344 1096 248          605          81.55       64.43         71.99
+      0.35      1216 1020 196          681          83.88       59.96         69.93
+      0.40      1086  941 145          760          86.65       55.32         67.53
+      0.45       957  843 114          858          88.09       49.56         63.43
+      0.50       825  744  81          957          90.18       43.74         58.91
+
+Optimal F1 Operating Point: Threshold = 0.25
+Peak F1-Score: 72.58%
+Precision:     78.12%
+Recall:        67.78%

@@ -1,0 +1,15 @@
+# YOLO Dataset Configuration for Microplastic Detection in Water
+
+# Dataset root directory (Ultralytics supports absolute paths or paths relative to YAML)
+path: e:/Microplastic Detection in Water/Dataset
+
+# Image directories (relative to 'path')
+train: images/train
+val: images/valid
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: Microplastic

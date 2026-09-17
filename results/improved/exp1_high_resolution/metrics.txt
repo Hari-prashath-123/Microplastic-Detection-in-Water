@@ -1,0 +1,15 @@
+Experiment: High Resolution (Exp 1)
+
+Model: YOLOv8n
+Image Size: 800
+Epochs: 10
+Batch Size: 8
+
+Precision: 75.94%
+Recall: 63.10%
+mAP@50: 71.41%
+mAP@50-95: 34.88%
+Inference Speed: ~9.4 ms/image
+
+Analysis:
+Increasing image resolution from 640 to 800 improved Recall from 62.08% to 63.10% and mAP@50-95 from 34.75% to 34.88%, confirming that higher pixel density helps detect smaller and faint microplastic particles that were previously missed by the baseline model.

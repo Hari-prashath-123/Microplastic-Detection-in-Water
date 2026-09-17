@@ -1,0 +1,13 @@
+MICROPLASTIC DETECTION - TRAINING METRICS SUMMARY
+Experiment: baseline_yolov8n
+Total Epochs: 10
+Best Epoch: 10
+
+Precision:       78.47%
+Recall:          62.15%
+mAP@50:          71.86%
+mAP@50-95:       34.75%
+Train Box Loss:  1.8948
+Train Cls Loss:  1.2062
+Val Box Loss:    1.7724
+Val Cls Loss:    1.2388

@@ -1,0 +1,14 @@
+FINAL MODEL SPECIFICATION & BENCHMARK METRICS
+==================================================
+Selected Model:       models/exp2_long_training/weights/best.pt
+Architecture:         YOLOv8n (Nano)
+Resolution:           800 x 800
+Confidence Threshold: 0.25 (Optimal F1 Operating Point)
+NMS IoU Threshold:    0.45
+--------------------------------------------------
+Precision:            78.34%
+Recall:               65.08%
+mAP@50:               72.23%
+mAP@50-95:            34.79%
+Inference Speed:      ~9.4 ms / image (NVIDIA GTX 1650)
+==================================================

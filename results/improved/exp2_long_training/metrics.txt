@@ -1,0 +1,15 @@
+Experiment: Longer Training (Exp 2)
+
+Model: YOLOv8n
+Image Size: 800
+Epochs: 30
+Batch Size: 8
+
+Precision: 78.34%
+Recall: 65.08%
+mAP@50: 72.23%
+mAP@50-95: 34.79%
+Inference Speed: ~9.4 ms/image
+
+Analysis:
+Increasing training duration from 10 to 30 epochs allowed the feature representations to converge much better. Recall climbed to 65.08% (+3.00% over baseline), Precision restored to 78.34%, and mAP@50 reached the highest overall score of 72.23%.

@@ -1,0 +1,16 @@
+Experiment: Data Augmentation (Exp 3)
+
+Model: YOLOv8n
+Image Size: 800
+Epochs: 30
+Batch Size: 8
+Augmentations: fliplr=0.5, flipud=0.5, degrees=15.0, scale=0.5, translate=0.1, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, mosaic=1.0, mixup=0.1
+
+Precision: 80.20%
+Recall: 62.10%
+mAP@50: 71.90%
+mAP@50-95: 34.40%
+Inference Speed: ~9.5 ms/image
+
+Academic Analysis:
+Experiment 3 increased precision to 80.2%, indicating improved discrimination of positive detections. However, recall decreased to 62.1%, and mAP@50 and mAP@50–95 decreased slightly to 71.9% and 34.4%, respectively. Therefore, the applied augmentation configuration did not provide an overall improvement in detection performance.

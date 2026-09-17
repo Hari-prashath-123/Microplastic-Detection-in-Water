@@ -1,0 +1,10 @@
+# Final Microplastic Detection & Counting Configuration
+
+model: models/exp2_long_training/weights/best.pt
+
+image_size: 800
+confidence_threshold: 0.25
+iou_threshold: 0.45
+
+class_names:
+  - Microplastic
